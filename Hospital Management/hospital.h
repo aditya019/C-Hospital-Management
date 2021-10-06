@@ -1,7 +1,7 @@
 #include <string>
 #include <vector>
 using namespace std;
-
+//Class To define hospital object
 class Hospital {
     public:
         string hospital_name;
@@ -10,7 +10,7 @@ class Hospital {
         int employees;
         Hospital();
 };
-
+//Class to define patient object
 class Patient : public Hospital {
 public:
     vector<int> p_id;
@@ -24,7 +24,7 @@ public:
     void newP();
     void dischargeP();
 };
-
+//class to define doctors object
 class Doctors : public Hospital {
 public: 
     vector<int> d_id;
@@ -36,7 +36,7 @@ public:
     void setValueD();
     void displayExp();
 };
-
+//class to define employess object
 class Employees : public Hospital {
 public:
     vector<int> e_id;
