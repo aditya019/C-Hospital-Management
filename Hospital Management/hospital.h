@@ -10,7 +10,7 @@ class Hospital {
         int employees;
         Hospital();
 };
-//Class to define patient object
+//Class to define patient object random edit
 class Patient : public Hospital {
 public:
     vector<int> p_id;
